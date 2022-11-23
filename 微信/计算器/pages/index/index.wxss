@@ -1,0 +1,57 @@
+.result {
+  flex: 1; 
+  background: #f3f6fe;
+  position: relative;
+}
+
+.btns {
+  flex: 1;
+  display: flex;
+  flex-direction: column; 
+  font-size: 17pt;
+  border-top: 1rpx solid #ccc;
+  border-left: 1rpx solid #ccc;
+}
+
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.btns>view {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.btns>view>view {
+  flex-basis: 25%;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns>view:last-child>view:first-child {
+  flex-basis: 50%;
+}
+
+.bg {
+  background-color: #eee;
+}
+
+.result_num {
+  font-size: 17pt;
+  position: absolute;
+  bottom: 5vh;
+  right: 3vw;
+}
+
+.result_op {
+  font-size: 17pt;
+  position: absolute;
+  bottom: 1vh;
+  right: 3vw;
+}

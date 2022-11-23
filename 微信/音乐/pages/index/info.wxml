@@ -1,0 +1,57 @@
+<scroll-view class="content-info" scroll-y>
+  <swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)"
+  indicator-active-color="#fff" indicator-dots circular autoplay >
+    <swiper-item>
+      <image src="../images/轮播1.jpg" mode="widthFix" style="width: 100%;"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/轮播3.jpg" mode="widthFix" style="width: 100%;"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/轮播2.jpg" mode="widthFix" style="width: 100%;"/>
+    </swiper-item>
+  </swiper>
+  <view class="content-info-portal">
+    <view>
+      <image class="a" src="../images/11.jpg"/>
+      <text>原创榜</text>
+    </view>
+    <view>
+      <image class="a" src="../images/13.jpg"/>
+      <text>歌曲推荐</text>
+    </view>
+    <view>
+      <image class="a" src="../images/12.jpg"/>
+      <text>新歌榜</text>
+    </view>
+  </view>
+  <view class="content-info-list">
+    <view class="list-title" style="font-size: 16pt;padding-top: 5pt;">推荐歌曲</view>
+    <view class="list-inner">
+      <view class="list-item">
+        <image src="../images/111.jpg"/>
+        <view class="b">搁浅</view>
+      </view>
+      <view class="list-item">
+        <image src="../images/112.jpg"/>
+        <view  class="b">夜曲</view>
+      </view>
+      <view class="list-item">
+        <image src="../images/113.jpg"/>
+        <view  class="b">晴天</view>
+      </view>
+      <view class="list-item">
+        <image src="../images/114.jpg"/>
+        <view  class="b">明明就</view>
+      </view>
+      <view class="list-item">
+        <image src="../images/115.jpg"/>
+        <view class="b">等你下课</view>
+      </view>
+      <view class="list-item">
+        <image src="../images/116.jpg"/>
+        <view class="b">借口</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

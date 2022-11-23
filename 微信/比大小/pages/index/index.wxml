@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="box">
+    <text>请输入第一个数字：</text>
+    <input type="number" bindchange='num1change'/>
+</view>
+<view class="box">
+    <text>请输入第二个数字：</text>
+    <input type="number" bindchange='num2change'/>
+</view>
+<button bindtap='compare'>比较大小</button>
+<view class="box">
+    <text>比较结果为：{{a}}</text>
+</view>
+<view class="box">                     
+    <text>{{b}}</text>
+</view>

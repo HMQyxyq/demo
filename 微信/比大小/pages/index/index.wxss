@@ -1,0 +1,15 @@
+/**index.wxss**/
+.box{
+    margin: 50rpx;
+}
+input{
+    width: 600rpx;
+    margin-top: 20rpx;
+    border-bottom: 4rpx solid #cccc;
+}
+button{
+    margin: 50rpx;
+    color: aliceblue;
+    background-color: #369;
+    letter-spacing: 12rpx;
+}
